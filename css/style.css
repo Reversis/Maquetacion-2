@@ -172,9 +172,19 @@ body{
     height: 100px;
     border: 10px solid white;
     box-shadow: 0px 0px 2px gray; 
-    background: url(../img/12133.jpg);
-    background-position: -913px -948px;
+    background: url(../img/2806067.jpg);
+    background-position: -913px -198px;
     margin: 20px auto;
+    animation: Backbanner 10s linear;
+}
+
+@keyframes Backbanner {
+    0%{
+        background-position: 0px 0px;
+    }
+    100%{
+        background-position: -913px -198px;
+    }
 }
 
 #banner h1{
